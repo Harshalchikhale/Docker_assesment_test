@@ -44,29 +44,4 @@ Hello World
 
 #####  Stop Docker Container:
 ```
-docker stop `docker container ls | grep "hello-world-java:*" | awk '{ print $1 }'`
-```
-
-## Run with docker-compose 
-
-Build and start the container by running 
-
-```
-$ docker-compose up -d 
-```
-
-##### Test application with ***curl*** command
-
-```
-$ curl localhost:8080
-```
-
-the respone should be:
-```
-Hello World
-```
-
-##### Stop Docker Container:
-```
-docker-compose down
-```
+docker stop ***
